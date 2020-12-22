@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: url("https://previews.123rf.com/images/sunspire/sunspire1605/sunspire160500393/56713731-vector-hipster-abstract-geometry-pattern-grid-black-and-white-seamless-geometric-background-subtle-p.jpg");
+    background-size: cover;
+}
+
+header {
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid #555;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    padding: 10px;
+}
+
+figure {
+    margin: 0 0 20px 0;
+}
+
+img {
+    max-width: 500px;
+}
+
+main {
+    max-width: 600px;
+    padding: 5px;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 2px  2px 2px #888;
+}
+
+li {
+    list-style: none;
+    line-height: 1.7em;
+}
+
+footer {
+    width: 600px;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px auto;
+    background-color: #fff;
+}
