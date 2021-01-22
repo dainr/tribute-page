@@ -6,12 +6,9 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background: url("https://previews.123rf.com/images/sunspire/sunspire1605/sunspire160500393/56713731-vector-hipster-abstract-geometry-pattern-grid-black-and-white-seamless-geometric-background-subtle-p.jpg");
-    background-size: cover;
 }
 
 header {
-    width: 300px;
     text-align: center;
     margin: 10px auto;
     border: 2px solid #555;
@@ -28,7 +25,8 @@ figure {
 }
 
 img {
-    max-width: 500px;
+    display: block;
+    max-width: 100%;
 }
 
 main {
@@ -46,7 +44,7 @@ li {
 }
 
 footer {
-    width: 600px;
+    width: 100%;
     text-align: center;
     font-size: 18px;
     margin: 30px auto;
